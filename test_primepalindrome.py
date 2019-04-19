@@ -39,14 +39,7 @@ The answer is guaranteed to exist and be less than 2 * 10^8.
 
 from primepalindrome.primepalindrome import PrimePalindrome
 
-"""
-9015110
-9989900
 
-3503054
-"""
-
-# ---- working { --------
 def test_3_13():
     base = 13
     expected = 101
@@ -74,7 +67,6 @@ def test_2_1_3503054():
 
     nextpal = PrimePalindrome(base).nextpal()
     assert nextpal == expected
-# ---- } working --------
 
 def test_4_9015110():
     base = 9015110
